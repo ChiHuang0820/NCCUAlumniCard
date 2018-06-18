@@ -6,32 +6,77 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="401dp"
+        android:layout_height="600dp"
+        android:adjustViewBounds="false"
+        app:srcCompat="#636363"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
     <Button
         android:id="@+id/button2"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="168dp"
-        android:layout_marginEnd="240dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="240dp"
-        android:layout_marginStart="16dp"
+        android:layout_width="386dp"
+        android:layout_height="55dp"
+        android:background="#2e2d2d"
         android:onClick="setNewLocation"
         android:text="@string/set_button"
+        android:textColor="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="新增活動" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="168dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginRight="64dp"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
         android:onClick="checkActivities"
         android:text="@string/checking_button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="315dp"
+        tools:text="活動列表"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tag" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="40dp"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="214dp"
+        tools:text="許家玲"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="384dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="#525151"
+        tools:layout_editor_absoluteY="304dp"
+        tools:ignore="MissingConstraints" />
+
+    "
 
 </android.support.constraint.ConstraintLayout>
